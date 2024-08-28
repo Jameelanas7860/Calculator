@@ -87,7 +87,7 @@ function multi(){
 }
 function div(){
     document.getElementById('div');
-    currentvalue += '÷';
+    currentvalue += '/';
     document.querySelector("#display").value = currentvalue;
 
 }
